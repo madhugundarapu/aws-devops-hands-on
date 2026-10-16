@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    image: madhu-docker-web:v1
+    container_name: madhu-web-compose
+    ports:
+      - "8000:8000"
